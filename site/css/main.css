@@ -1,0 +1,112 @@
+html, body  {
+  height: 100%;
+  width: 100%;
+  font-family: 'Alegreya SC', serif;
+  margin: 0;
+}
+
+
+main {
+   height: 100%;
+   width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.ett {
+  height: 25%;
+  background-color: #8593AE;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.två {
+  height: 25%;
+  background-color: #FFF;
+}
+.tre {
+  height: 25%;
+  background-color: #FFF;
+}
+.fyra {
+  height: 25%;
+  background-color: #FFF;
+}
+
+.fem {
+  height: 75px;
+  width: 100vw;
+  background-color: #7E675E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.kartsam {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.samverkan {
+  margin-left: 20px;
+  margin-bottom:5px;
+}
+
+.nav_box1 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav_box2 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav_box3 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav_box4 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_box5 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_box1:hover,.nav_box2:hover,.nav_box3:hover,.nav_box4:hover,.nav_box5:hover {
+ background-color: #FFF;
+}
