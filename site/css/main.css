@@ -9,37 +9,54 @@ html, body  {
 main {
    height: 100%;
    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+
+header {
+
 }
 
 section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: 70vh;
   width: 100%;
 }
 
-.ett {
+.header {
   height: 25%;
   background-color: #8593AE;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.två {
-  height: 25%;
+.main_article {
   background-color: #FFF;
-}
-.tre {
-  height: 25%;
-  background-color: #FFF;
-}
-.fyra {
-  height: 25%;
-  background-color: #FFF;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
-.fem {
+.text {
+  width:50%;
+  margin-left: 10px;
+}
+
+.box {
+  width: 30%;
+  height: 50%;
+  border: 1px solid;
+  margin-right: 10px;
+}
+
+.nav_bar {
   height: 75px;
   width: 100vw;
   background-color: #7E675E;
@@ -47,6 +64,8 @@ section {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .kartsam {
@@ -109,4 +128,20 @@ section {
 
 .nav_box1:hover,.nav_box2:hover,.nav_box3:hover,.nav_box4:hover,.nav_box5:hover {
  background-color: #FFF;
+}
+
+
+footer {
+  height: 10%;
+  width: 100%;
+  background-color: #8593AE;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.copyright {
+  font-size: 15px;
+  margin-left: 10px;
 }
