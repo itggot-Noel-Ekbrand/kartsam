@@ -8,4 +8,9 @@ function initMap() {
           position: uluru,
           map: map
         });
+        var uluru2 = {lat: 60.691812, lng:15.700126};
+        var marker = new google.maps.Marker({
+          position: uluru2,
+          map: map
+        });
       }
