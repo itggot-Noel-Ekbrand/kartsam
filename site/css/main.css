@@ -70,7 +70,7 @@ section {
 .nav_bar {
   height: 40px;
   width: 100vw;
-  background-color: #335252;
+  background-color: #2D3033;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -110,7 +110,7 @@ section {
   color: #D4DDE1;
 }
 .nav_box:hover {
- background-color: #AA4B41;
+ background-color: rgba(248, 0, 217, 0.4);
  transition: 0.2s
 }
 
