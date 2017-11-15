@@ -13,4 +13,14 @@ function initMap() {
           position: uluru2,
           map: map
         });
+        var uluru3 = {lat: 50.052753, lng:14.356375};
+        var marker = new google.maps.Marker({
+          position: uluru3,
+          map: map
+        });
+        var uluru4 = {lat: 50.062160, lng:14.309191};
+        var marker = new google.maps.Marker({
+          position: uluru4,
+          map: map
+        });
       }
