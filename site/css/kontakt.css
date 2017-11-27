@@ -1,6 +1,7 @@
 html, body  {
   height: 100%;
   width: 100%;
+  background-color: #D4DDE1;
   font-family: 'Alegreya SC', serif;
   margin: 0;
 }
@@ -36,7 +37,7 @@ section {
   justify-content: center;
   width: 100%;
   height: auto;
-  margin-top: 140px;
+  margin-top: 75px;
 }
 
 .header {
@@ -50,19 +51,41 @@ section {
   font-size: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 80vh;
 }
 
-.main_article {
+.kontakt_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.kontakt_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.kontakt_info {
   background-color: #D4DDE1;
   font-size: 15px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 40vh;
+  border: solid 1px;
+  width: 20vw;
 }
 
 .text {
@@ -80,7 +103,7 @@ section {
 .nav_bar {
   height: 40px;
   width: 100vw;
-  background-color: #335252;
+  background-color: #2D3033;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -120,7 +143,7 @@ section {
   color: #D4DDE1;
 }
 .nav_box:hover {
- background-color: #AA4B41;
+ background-color: rgba(248, 0, 217, 0.4);
  transition: 0.2s
 }
 
@@ -132,6 +155,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 10px;
 }
 
 
@@ -143,8 +167,7 @@ footer {
 
 
 .hidden {
-  height: 80%;
-  width: 50%;
+  width: 100%;
 }
 
 
