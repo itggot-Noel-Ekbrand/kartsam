@@ -2,7 +2,8 @@ html, body  {
   height: 100%;
   width: 100%;
   background-color: #D4DDE1;
-  font-family: 'Alegreya SC', serif;
+  /*font-family: 'Alegreya SC', serif;*/
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
@@ -15,17 +16,9 @@ main {
 }
 
 header {
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
   position: fixed;
   z-index: 9999;
 }
-
-nav {
-
-}
-
 
 a {
   text-decoration: none;
@@ -41,17 +34,18 @@ section {
 }
 
 .header {
-  background-color: #2D3033;
+  background-color: #8ac37b;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 .main_article {
-  background-color: #D4DDE1;
+  background-color: #B1CEAE;
   font-size: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 80vh;
 }
@@ -103,33 +97,30 @@ section {
 .nav_bar {
   height: 40px;
   width: 100vw;
-  background-color: #2D3033;
+  background-color: #69ae57;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
 }
 
 .kartsam {
-  font-size: 50px;
-  margin-left: 10px;
-  color: #D4DDE1;
-  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
+  font-size: 2.5em;
+  color: white;
 }
 
 .row1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  height: 100px;
+  justify-content: center;
+  line-height: 0;
 }
 
 .samverkan {
-  margin-left: 20px;
-  margin-bottom:5px;
-  color: rgba(212, 221, 225, 0.7);
+  font-size: 1.5em;
+  color: white;
+  margin-top: 5px;
 }
 
 .nav_box {
@@ -140,31 +131,53 @@ section {
   justify-content: center;
   align-items: center;
   transition: 0.2s;
-  color: #D4DDE1;
+  color: white;
 }
 .nav_box:hover {
- background-color: rgba(248, 0, 217, 0.4);
+ background-color: #499635;
  transition: 0.2s
 }
 
 
 footer {
-  height: 10%;
+  height: 40px;
   width: 100%;
-  background-color: #2D3033;
+  background-color: #69ae57;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 10px;
+  justify-content: space-around;
 }
-
 
 .copyright {
   font-size: 15px;
   margin-left: 10px;
+  color: white;
 }
 
+.pic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.box {
+  border: 1px solid;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+}
+.text_part {
+  height: 300px;
+  max-width: 400px;
+  min-width: 0;
+  background-color: white;
+}
+.text {
+  height: 300px;
+  word-wrap: break-word;
+  padding: 5px;
 
 .hidden {
   width: 100%;
