@@ -1,7 +1,7 @@
 html, body  {
   height: 100%;
   width: 100%;
-  background-color: #D4DDE1;
+  background-color: #B1CEAE;
   /*font-family: 'Alegreya SC', serif;*/
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -72,7 +72,7 @@ section {
 }
 
 .kontakt_info {
-  background-color: #D4DDE1;
+  background-color: #B1CEAE;
   font-size: 15px;
   display: flex;
   flex-direction: column;
