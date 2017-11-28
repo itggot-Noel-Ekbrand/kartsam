@@ -1,7 +1,9 @@
 html, body  {
   height: 100%;
   width: 100%;
-  font-family: 'Alegreya SC', serif;
+  background-color: #B1CEAE;
+  /*font-family: 'Alegreya SC', serif;*/
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
@@ -14,17 +16,9 @@ main {
 }
 
 header {
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
   position: fixed;
   z-index: 9999;
 }
-
-nav {
-
-}
-
 
 a {
   text-decoration: none;
@@ -36,33 +30,57 @@ section {
   justify-content: center;
   width: 100%;
   height: auto;
-  margin-top: 140px;
+  margin-top: 75px;
 }
 
 .header {
-  background-color: #2D3033;
+  background-color: #8ac37b;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 .main_article {
-  background-color: #D4DDE1;
+  background-color: #B1CEAE;
   font-size: 15px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   justify-content: center;
   align-items: center;
   height: 80vh;
 }
 
-.main_article {
-  background-color: #D4DDE1;
-  font-size: 15px;
+.kontakt_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.kontakt_row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.kontakt_info {
+  background-color: #B1CEAE;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 300px;
+  border: solid 1px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 20vw;
 }
 
 .text {
@@ -80,33 +98,30 @@ section {
 .nav_bar {
   height: 40px;
   width: 100vw;
-  background-color: #335252;
+  background-color: #69ae57;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
 }
 
 .kartsam {
-  font-size: 50px;
-  margin-left: 10px;
-  color: #D4DDE1;
-  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
+  font-size: 2.5em;
+  color: white;
 }
 
 .row1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  height: 100px;
+  justify-content: center;
+  line-height: 0;
 }
 
 .samverkan {
-  margin-left: 20px;
-  margin-bottom:5px;
-  color: rgba(212, 221, 225, 0.7);
+  font-size: 1.5em;
+  color: white;
+  margin-top: 5px;
 }
 
 .nav_box {
@@ -117,38 +132,63 @@ section {
   justify-content: center;
   align-items: center;
   transition: 0.2s;
-  color: #D4DDE1;
+  color: white;
 }
 .nav_box:hover {
- background-color: #AA4B41;
+ background-color: #499635;
  transition: 0.2s
 }
 
 
 footer {
-  height: 10%;
+  height: 40px;
   width: 100%;
-  background-color: #2D3033;
+  background-color: #69ae57;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
 }
-
 
 .copyright {
   font-size: 15px;
   margin-left: 10px;
+  color: white;
 }
 
+.pic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-
-.hidden {
-  height: 80%;
-  width: 50%;
+.box {
+  border: 1px solid;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+}
+.text_part {
+  height: 300px;
+  max-width: 400px;
+  min-width: 0;
+  background-color: white;
+}
+.text {
+  height: 300px;
+  word-wrap: break-word;
+  padding: 5px;
+}
+.map {
+  width: 100%;
+  margin-top: -30px;
 }
 
 
 #map {
 height:80%;
+width: 100%;
 z-index: 2;
 }
