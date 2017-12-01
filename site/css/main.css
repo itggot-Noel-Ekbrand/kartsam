@@ -3,6 +3,7 @@ html, body  {
   width: 100%;
   /* font-family: 'Alegreya SC', serif; */
   font-family: 'Merriweather', serif;
+  background-image: url("../img/background_img_test.jpg");
   margin: 0;
   overflow-x: hidden;
 }
@@ -22,7 +23,6 @@ header {
 
 a {
   text-decoration: none;
-
 }
 section {
   display: flex;
@@ -40,7 +40,6 @@ section {
   justify-content: flex-end;
 }
 .main_article {
-  background-color: #B1CEAE;
   font-size: 15px;
   display: flex;
   flex-direction: row;
