@@ -73,6 +73,30 @@
     </main>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2yI3BsfttkeVE3zQhOWPjqlv1Q6jQXsk &libraries=places&callback=initMap" async defer>
   </script>
+  <script>
+    $(function(){
+      $("#ico_2").fadeOut()
+        $(window).scroll(function () {
+  var scrollh = $(this).scrollTop();
+  if (scrollh == 0) {
+      $("nav").css({
+        'transition':'0.5s' , 'height':'100px;' , 
+      });
+      $(".log_sz").css({
+        'height':'100px;' , 'width':'100px',
+      });
+  } else {
+      $("nav").stop().css({
+         'transition':'0.5s' , 'height':'65px',
+      });
+      $(".log_sz").css({
+        'height':'0px;' , 'width':'0px' ,
+      });
+  }
+  });
+  </script>
+<script src="./js/jquery-3.2.1.min.js"></script>
 <script src="./js/main.js"> </script>
+<script src="./js/homemade.js"> </script>
   </body>
 </html>
