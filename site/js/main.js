@@ -28,3 +28,4 @@ function initMap() {
           icon: './img/yellow-dot.png'
         });
       }
+      
