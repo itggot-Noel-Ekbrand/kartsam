@@ -48,7 +48,17 @@ section {
   justify-content: center;
   height: 80vh;
 }
-
+.maps {
+  z-index: 9999;
+}
+.img_size {
+  width: 300px;
+}
+.mainimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 #main_article {
   background-color: #D4DDE1;
   font-size: 15px;
