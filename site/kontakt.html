@@ -1,102 +1,116 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/kontakt.css"> </link>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <title>Kartsam</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <article class="header">
-          <div class="row1">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/kontakt.css"> </link>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <title>Kartsam</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <article class="header">
+        <div class="row1">
           <h1 class="kartsam"> Kartsam </h1>
           <h2 class="samverkan"> kartografer i samverkan </h2>
-          </div>
+        </div>
+      </article>
+      <nav>
+        <article class="nav_bar">
+          <a class="nav_box" href="index.html"> Hem </a>
+          <a class="nav_box"> Nyheter </a>
+          <a class="nav_box"> Kartor </a>
+          <a class="nav_box" href="nummerlappar.html"> Nummerlappar </a>
+          <a class="nav_box" href="kontakt.html"> Kontakt </a>
         </article>
-        <nav>
-          <article class="nav_bar">
-            <a class="nav_box" href="index.html"> Hem </a>
-            <a class="nav_box"> Nyheter </a>
-            <a class="nav_box"> Kartor </a>
-            <a class="nav_box" href="nummerlappar.html"> Nummerlappar </a>
-            <a class="nav_box" href="kontakt.html"> Kontakt </a>
+      </nav>
+    </header>
+    <section>
+      <article class="main_article">
+        <div class="map" id="map">
+        </div>
+      </article>
+      <div class="kontakt_column"> KONTAKTA OSS
+        <div class="kontakt_row">
+          <article class="kontakt_info">
+            <p>
+              <img src="./img/green-dot.png"></img>Håkan Holmberg</p>
+            <p>hakan@kartsam.se</p>
+            <p>Rickards plan 11</p>
+            <p>791 47 Falun</p>
+            <p>023 - 342 49</p>
+            <p>070 - 81 77 361</p>
           </article>
-        </nav>
-      </header>
-      <section>
-        <article class="main_article">
-          <div class="map" id="map">
-          </div>
-            </article>
-            <div class="kontakt_column"> KONTAKTA OSS
-            <div class="kontakt_row">
-            <article class="kontakt_info">
-              <p><img src="./img/green-dot.png"></img>Håkan Holmberg</p>
-              <p>hakan@kartsam.se</p>
-              <p>Rickards plan 11</p>
-              <p>791 47 Falun</p>
-              <p>023 - 342 49</p>
-              <p>070 - 81 77 361</p>
-                </article>
-                <article class="kontakt_info">
-                  <p><img src="./img/red-dot.png"></img>Christer Carlsson</p>
-                  <p>christer@kartsam.se</p>
-                  <p>Hörnetvägen 14</p>
-                  <p>437 91 Lindome</p>
-                  <p>0705 - 66 32 43</p>
-                </article>
-                <article class="kontakt_info">
-                  <p><img src="./img/blue-dot.png"></img>Žaket, tryckeriet</p>
-                  <p>Žaket, tryckeriet:</p>
-                  <p>Tiskárna IV. s.r.o.,</p>
-                  <p>Řeporyjská 1,</p>
-                  <p>155 00 Praha 5-Jinonice</p>
-                </article>
-                <article class="kontakt_info">
-                <p><img src="./img/yellow-dot.png"></img>Žaket, kontoret</p>
-                  <p>Žaket, kontoret:</p>
-                  <p>Slánská 381/10,</p>
-                  <p>CZ-163 00  Praha 6</p>
-                </article>
-              </div>
-            </div>
-      </section>
-      <footer>
-        <div class="copyright">  ©Kartsam.se </div>
-        <div class="copyright"> Made By Edge UF</div>
-      </footer>
-    </main>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2yI3BsfttkeVE3zQhOWPjqlv1Q6jQXsk &libraries=places&callback=initMap" async defer>
+          <article class="kontakt_info">
+            <p>
+              <img src="./img/red-dot.png"></img>Christer Carlsson</p>
+            <p>christer@kartsam.se</p>
+            <p>Hörnetvägen 14</p>
+            <p>437 91 Lindome</p>
+            <p>0705 - 66 32 43</p>
+          </article>
+          <article class="kontakt_info">
+            <p>
+              <img src="./img/blue-dot.png"></img>Žaket, tryckeriet</p>
+            <p>Žaket, tryckeriet:</p>
+            <p>Tiskárna IV. s.r.o.,</p>
+            <p>Řeporyjská 1,</p>
+            <p>155 00 Praha 5-Jinonice</p>
+          </article>
+          <article class="kontakt_info">
+            <p>
+              <img src="./img/yellow-dot.png"></img>Žaket, kontoret</p>
+            <p>Žaket, kontoret:</p>
+            <p>Slánská 381/10,</p>
+            <p>CZ-163 00 Praha 6</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="copyright"> ©Kartsam.se </div>
+      <div class="copyright"> Made By Edge UF</div>
+    </footer>
+  </main>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2yI3BsfttkeVE3zQhOWPjqlv1Q6jQXsk &libraries=places&callback=initMap"
+    async defer>
   </script>
   <script>
-    $(function(){
-      $("#ico_2").fadeOut()
-        $(window).scroll(function () {
-  var scrollh = $(this).scrollTop();
-  if (scrollh == 0) {
-      $("nav").css({
-        'transition':'0.5s' , 'height':'100px;' , 
-      });
-      $(".log_sz").css({
-        'height':'100px;' , 'width':'100px',
-      });
-  } else {
-      $("nav").stop().css({
-         'transition':'0.5s' , 'height':'65px',
-      });
-      $(".log_sz").css({
-        'height':'0px;' , 'width':'0px' ,
-      });
-  }
-  });
-</script>
-<script src="./js/jquery-3.2.1.min.js"></script>
-<script src="./js/main.js"> </script>
-<script src="./js/homemade.js"> </script>
-  </body>
+    $(function () {
+          $("#ico_2").fadeOut()
+          $(window).scroll(function () {
+            var scrollh = $(this).scrollTop();
+            if (scrollh == 0) {
+              $("nav").css({
+                'transition': '0.5s',
+                'height': '100px;',
+              });
+              $(".log_sz").css({
+                'height': '100px;',
+                'width': '100px',
+              });
+            } else {
+              $("nav").stop().css({
+                'transition': '0.5s',
+                'height': '65px',
+              });
+              $(".log_sz").css({
+                'height': '0px;',
+                'width': '0px',
+              });
+            }
+          });
+  </script>
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/main.js">
+  </script>
+  <script src="./js/homemade.js">
+  </script>
+</body>
+
 </html>
