@@ -4,6 +4,7 @@ html, body  {
   background-color: #B1CEAE;
   /*font-family: 'Alegreya SC', serif;*/
   font-family: 'Merriweather', serif;
+  background-image: url("../img/background_img_test.jpg");
   margin: 0;
 }
 
@@ -40,7 +41,6 @@ section {
   justify-content: flex-end;
 }
 .main_article {
-  background-color: #B1CEAE;
   font-size: 15px;
   display: flex;
   flex-direction: row;
@@ -72,13 +72,13 @@ section {
 }
 
 .kontakt_info {
-  background-color: #B1CEAE;
   font-size: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 300px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: white;
+  border-bottom: solid #8ac37b 5px;
   width: 20vw;
 }
 
