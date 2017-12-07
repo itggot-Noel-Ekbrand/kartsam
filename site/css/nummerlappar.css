@@ -160,6 +160,10 @@ html, body  {
   }
 
 
+table {
+  border-collapse: collapse;
+}
+
 .show {
   display: flex;
   flex-direction: row;
@@ -172,7 +176,7 @@ html, body  {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 500px;
   position: relative;
   margin: auto;
 }
