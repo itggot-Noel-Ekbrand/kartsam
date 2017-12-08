@@ -237,6 +237,13 @@ footer {
 .news_img {
   width: 30vw;
 }
+.news {
+
+}
+.news_hover:hover {
+  background-color: black;
+  transition: 0.5s;
+}
 .news_title {
   text-align: center;
 }
