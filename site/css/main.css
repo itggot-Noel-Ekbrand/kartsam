@@ -259,3 +259,6 @@ footer {
 .news_title {
   text-align: center;
 }
+.height_adj {
+  height: auto;
+}
