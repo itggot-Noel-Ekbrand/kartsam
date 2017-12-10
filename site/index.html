@@ -22,18 +22,23 @@
         <article class="nav_bar">
           <a class="nav_box" href="index.html"> Hem </a>
           <a class="nav_box" href="nyheter.html"> Nyheter </a>
-          <a class="nav_box" href="kartor.html"> Kartor </a>
+          <a class="nav_box dropdown_2" href="kartor.html"> Kartritning </a>
           <a class="nav_box dropdown_1" href="kartutskrifter.html"> Kartutskrifter </a>
           <a class="nav_box" href="nummerlappar.html"> Nummerlappar </a>
           <a class="nav_box" href="kontakt.html"> Kontakt </a>
         </article>
       </nav>
     </header>
-        <div class="dropdown dropdown_1">
-          <div class="drop_titles"><h4>Tryckeri</h4></div>
-          <div class="drop_titles"><h4>Offsettryck</h4></div>
+        <div class="dropdown dropdown_1" id="drop_1">
+          <div class="drop_titles"><h4>Planering</h4></div>
+          <div class="drop_titles"><h4>Laserdata</h4></div>
           <div class="drop_titles"><h4>Plastfickor</h4></div>
         </div>
+        <div class="dropdown dropdown_2" id="drop_2">
+            <div class="drop_titles"><h4>Tryckeri</h4></div>
+            <div class="drop_titles"><h4>Offsettryck</h4></div>
+            <div class="drop_titles"><h4>Plastfickor</h4></div>
+          </div>
     <section>
       <article class="main_article positioning_art" id="img_art">
         <article class="mainimg">
@@ -79,7 +84,10 @@
     $(function(){
       $(".dropdown").slideUp(0)
       $(".dropdown_1").hover(function() {
-        $(".dropdown").stop().slideToggle(150)
+        $("#drop_1").stop().slideToggle(150)
+      })
+      $(".dropdown_2").hover(function() {
+        $("#drop_2").stop().slideToggle(150)
       })
     });
   </script>

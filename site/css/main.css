@@ -278,8 +278,13 @@ footer {
   top: 131px;
   color: white;
   z-index: 9999;
-  left: calc(3*100vw/6);
   background-color: #69ae57;
+}
+#drop_1 {
+  left: calc(3*100vw/6);
+}
+#drop_2 {
+  left: calc(2*100vw/6);
 }
 .drop_titles {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
