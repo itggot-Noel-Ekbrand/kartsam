@@ -28,4 +28,13 @@ function initMap() {
           icon: './img/yellow-dot.png'
         });
       }
-      
+
+$(function(){
+        $(".dropdown").slideUp(0)
+        $(".dropdown_1").hover(function() {
+          $("#drop_1").stop().slideToggle(150)
+        })
+        $(".dropdown_2").hover(function() {
+          $("#drop_2").stop().slideToggle(150)
+        })
+      });

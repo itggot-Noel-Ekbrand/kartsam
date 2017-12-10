@@ -12,23 +12,32 @@
 <body>
   <main>
     <header>
-        <article class="header">
-            <div class="row1">
-                <h1 class="kartsam"> Kartsam </h1>
-                <h2 class="samverkan"> kartografer i samverkan </h2>
-            </div>
+      <article class="header">
+        <div class="row1">
+          <h1 class="kartsam" id="ico2"> Kartsam </h1>
+          <h2 class="samverkan"> kartografer i samverkan </h2>
+        </div>
+      </article>
+      <nav>
+        <article class="nav_bar">
+          <a class="nav_box" href="index.html"> Hem </a>
+          <a class="nav_box" href="nyheter.html"> Nyheter </a>
+          <a class="nav_box dropdown_2" href="kartor.html"> Kartritning </a>
+          <a class="nav_box dropdown_1" href="kartutskrifter.html"> Kartutskrifter </a>
+          <a class="nav_box" href="nummerlappar.html"> Nummerlappar </a>
+          <a class="nav_box" href="kontakt.html"> Kontakt </a>
         </article>
-        <nav>
-            <article class="nav_bar">
-                <a class="nav_box" href="index.html"> Hem </a>
-                <a class="nav_box" href="nyheter.html"> Nyheter </a>
-                <a class="nav_box" href="kartor.html"> Kartor </a>
-                <a class="nav_box" href="kartutskrifter.html"> Kartutskrifter </a>
-                <a class="nav_box" href="nummerlappar.html"> Nummerlappar </a>
-                <a class="nav_box" href="kontakt.html"> Kontakt </a>
-            </article>
-        </nav>
+      </nav>
     </header>
+        <div class="dropdown dropdown_1" id="drop_1">
+          <div class="drop_titles"><a href="tryckeri.html"><h4>Tryckeri</h4></a></div>
+          <div class="drop_titles"><a href="offsettryck.html"><h4>Offsettryck</h4></a></div>
+          <div class="drop_titles"><a href="plastfickor.html"><h4>Plastfickor</h4></a></div>
+        </div>
+        <div class="dropdown dropdown_2" id="drop_2">
+            <div class="drop_titles"><a href=""><h4>Planering</h4></a></div>
+            <div class="drop_titles"><a href=""><h4>Laserdata</h4></a></div>
+          </div>
     <section>
       <article class="plastfickor_text">
         <h2> Plastfickor </h2>
@@ -49,7 +58,8 @@
       <div class="copyright"> Made By Edge UF</div>
     </footer>
   </main>
-  <script src="./js/nummerlapp.js">
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/main.js">
   </script>
 </body>
 
