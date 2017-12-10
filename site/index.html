@@ -77,8 +77,9 @@
   </script>
   <script>
     $(function(){
+      $(".dropdown").slideUp(150)
       $("#dropdown_1").hover(function() {
-        $(".dropdown").slideToggle(100)
+        $(".dropdown").stop().slideToggle(150)
       })
     });
   </script>
