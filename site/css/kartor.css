@@ -43,6 +43,48 @@ section {
   justify-content: flex-end;
 }
 
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: calc(100vw/6);
+  top: 131px;
+  color: white;
+  z-index: 9999;
+  background-color: #69ae57;
+}
+#drop_1 {
+  left: calc(3*100vw/6);
+}
+#drop_2 {
+  left: calc(2*100vw/6);
+}
+.drop_titles {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  width: calc(100vw/6);
+  text-align: center;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.drop_titles:hover {
+  background-color: #499635;
+  transition: 0.2s
+}
+.dropdown h4 {
+  font-weight: lighter;
+}
+.drop_titles a {
+  text-decoration: none;
+  color: white;
+}
+
+
 .main_article {
   font-size: 15px;
   display: flex;
