@@ -280,6 +280,7 @@ footer {
 .kartor_art {
   align-items: center;
   flex-direction: column;
+  height: auto;
 }
 .priser {
   display: flex;
@@ -298,4 +299,26 @@ footer {
 }
 .priser p {
   line-height: 0;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 70vw;
+  background-color: white;
+  border-bottom: solid #8ac37b 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin: 10px;
+}
+.card_margin {
+  margin-bottom: 100px;
+}
+.list_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 70vw;
 }

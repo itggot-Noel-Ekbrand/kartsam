@@ -263,3 +263,10 @@ footer {
 .height_adj {
   height: auto;
 }
+.lists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 
+}
