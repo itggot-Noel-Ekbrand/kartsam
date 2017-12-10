@@ -326,3 +326,29 @@ footer {
 .restrict {
     width: 60vw;
 }
+.standards {
+    font-size: 2em;
+    line-height: 0;
+}
+.chill_list {
+    text-align: left;
+    width: 60vw;
+}
+.smolimg {
+    width: 200px;
+    height: 200px;
+}
+.img_box {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.smol_img_box {
+    text-align: center;
+}
+.laser_fix {
+    height: 100vh;
+}
