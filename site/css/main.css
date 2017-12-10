@@ -91,7 +91,6 @@ section {
   color: white;
   margin-top: 5px;
 }
-
 .nav_box {
   height: 100%;
   width: calc(100vw/6);
@@ -116,6 +115,8 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  position: relative;
+  bottom: 0;
 }
 
 .copyright {
@@ -303,4 +304,8 @@ footer {
 }
 .dropdown h4 {
   font-weight: lighter;
+}
+.drop_titles a {
+  text-decoration: none;
+  color: white;
 }
