@@ -23,13 +23,13 @@
           <a class="nav_box" href="index.html"> Hem </a>
           <a class="nav_box" href="nyheter.html"> Nyheter </a>
           <a class="nav_box" href="kartor.html"> Kartor </a>
-          <a class="nav_box" id="dropdown_1" href="kartutskrifter.html"> Kartutskrifter </a>
+          <a class="nav_box dropdown_1" href="kartutskrifter.html"> Kartutskrifter </a>
           <a class="nav_box" href="nummerlappar.html"> Nummerlappar </a>
           <a class="nav_box" href="kontakt.html"> Kontakt </a>
         </article>
       </nav>
     </header>
-        <div class="dropdown">
+        <div class="dropdown dropdown_1">
           <div class="drop_titles"><h4>Tryckeri</h4></div>
           <div class="drop_titles"><h4>Offsettryck</h4></div>
           <div class="drop_titles"><h4>Plastfickor</h4></div>
@@ -77,8 +77,8 @@
   </script>
   <script>
     $(function(){
-      $(".dropdown").slideUp(150)
-      $("#dropdown_1").hover(function() {
+      $(".dropdown").slideUp(0)
+      $(".dropdown_1").hover(function() {
         $(".dropdown").stop().slideToggle(150)
       })
     });
