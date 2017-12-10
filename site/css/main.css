@@ -309,3 +309,6 @@ footer {
   text-decoration: none;
   color: white;
 }
+.margin_text {
+  padding: 10px;
+}
