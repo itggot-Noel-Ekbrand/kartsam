@@ -5,6 +5,7 @@ html, body  {
   /*font-family: 'Alegreya SC', serif;*/
   font-family: 'Merriweather', serif;
   background-image: url("../img/background_img_test.jpg");
+  background-attachment: fixed;
   margin: 0;
 }
 
