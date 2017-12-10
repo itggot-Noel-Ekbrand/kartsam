@@ -94,7 +94,7 @@ section {
 
 .nav_box {
   height: 100%;
-  width: 25%;
+  width: calc(100vw/6);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -268,5 +268,29 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: calc(100vw/6);
+  top: 131px;
+  color: white;
+  z-index: 9999;
+  left: calc(3*100vw/6);
+  background-color: #69ae57;
+}
+.drop_titles {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  width: calc(100vw/6);
+  text-align: center;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown h4 {
+  font-weight: lighter;
 }
