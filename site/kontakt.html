@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <title>Kartsam</title>
 </head>
+
 <body>
   <main>
     <header>
@@ -30,15 +31,35 @@
         </article>
       </nav>
     </header>
-        <div class="dropdown dropdown_1" id="drop_1">
-          <div class="drop_titles"><a href="tryckeri.html"><h4>Tryckeri</h4></a></div>
-          <div class="drop_titles"><a href="offsettryck.html"><h4>Offsettryck</h4></a></div>
-          <div class="drop_titles"><a href="plastfickor.html"><h4>Plastfickor</h4></a></div>
-        </div>
-        <div class="dropdown dropdown_2" id="drop_2">
-            <div class="drop_titles"><a href="planering.html"><h4>Planering</h4></a></div>
-            <div class="drop_titles"><a href="laserdata.html"><h4>Laserdata</h4></a></div>
-          </div>
+    <div class="dropdown dropdown_1" id="drop_1">
+      <div class="drop_titles">
+        <a href="tryckeri.html">
+          <h4>Tryckeri</h4>
+        </a>
+      </div>
+      <div class="drop_titles">
+        <a href="offsettryck.html">
+          <h4>Offsettryck</h4>
+        </a>
+      </div>
+      <div class="drop_titles">
+        <a href="plastfickor.html">
+          <h4>Plastfickor</h4>
+        </a>
+      </div>
+    </div>
+    <div class="dropdown dropdown_2" id="drop_2">
+      <div class="drop_titles">
+        <a href="planering.html">
+          <h4>Planering</h4>
+        </a>
+      </div>
+      <div class="drop_titles">
+        <a href="laserdata.html">
+          <h4>Laserdata</h4>
+        </a>
+      </div>
+    </div>
     <section>
       <article class="main_article offset">
         <div class="map" id="map">
@@ -47,7 +68,8 @@
       <div class="kontakt_column">
         <div class="kontakt_row">
           <article class="kontakt_info">
-            <span><img src="./img/green-dot.png"></img>Håkan Holmberg</span>
+            <span>
+              <img src="./img/green-dot.png"></img>Håkan Holmberg</span>
             <p>hakan@kartsam.se</p>
             <p>Rickards plan 11</p>
             <p>791 47 Falun</p>
@@ -88,21 +110,11 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2yI3BsfttkeVE3zQhOWPjqlv1Q6jQXsk &libraries=places&callback=initMap"
     async defer>
   </script>
-  <script>
-    $(function(){
-      $(".dropdown").slideUp(0)
-      $(".dropdown_1").hover(function() {
-        $("#drop_1").stop().slideToggle(150)
-      })
-      $(".dropdown_2").hover(function() {
-        $("#drop_2").stop().slideToggle(150)
-      })
-    });
-  </script>
   <script src="./js/jquery-3.2.1.min.js"></script>
   <script src="./js/main.js">
   </script>
   <script src="./js/homemade.js">
   </script>
 </body>
+
 </html>
