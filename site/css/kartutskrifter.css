@@ -157,19 +157,27 @@ section {
 }
 
 .text_skrivare {
+  margin-top: 10px;
   width: 70vw;
   background-color: white;
   border-bottom: solid #8ac37b 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
+  margin-bottom: 50px;
 }
+
+.title {
+  font-size: 2em;
+  word-wrap: break-word;
+}
+
 
 .skrivare_row {
   margin-top: 20px;
-  width: 100%;
+  width: 70vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .margin_skrivare {
@@ -182,7 +190,6 @@ section {
 
 #margin_skrivare {
   margin:30px;
-  width: 30vw;
 }
 
 .cert {
@@ -191,10 +198,11 @@ section {
 }
 
 .cert_img {
-  width: 20vw;
+width: 20vw;
 }
 
 .cert_text {
+  width: 20vw;
   margin-top: 0;
   background-color: white;
   border-bottom: solid #8ac37b 5px;
@@ -209,22 +217,17 @@ section {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   color: black;
-  width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 10px;
-
 }
 
 
 
 table {
   border-collapse: collapse;
-  height: 20vh;
-  width: 40vw;
+  width: 100%;
 }
 
 th {
