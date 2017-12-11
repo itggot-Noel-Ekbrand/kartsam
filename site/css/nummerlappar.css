@@ -97,7 +97,7 @@ html, body  {
       width: 70vw;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       background-color: white;
       border-bottom: solid #8ac37b 5px;
@@ -128,8 +128,8 @@ html, body  {
   }
 
   .nummerlappimg {
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: 7vw;
   }
 
 
