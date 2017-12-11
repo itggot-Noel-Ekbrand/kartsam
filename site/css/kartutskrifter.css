@@ -196,8 +196,6 @@ section {
 
 .cert_text {
   margin-top: 0;
-  width: 20vw;
-  height: 10vh;
   background-color: white;
   border-bottom: solid #8ac37b 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
