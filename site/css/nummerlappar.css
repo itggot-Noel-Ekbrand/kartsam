@@ -107,12 +107,27 @@ html, body  {
       border-radius: 3px;
       color: black;
   }
+  .nummerlappar_text2 {
+      margin-bottom: 50px;
+      width: 70vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      border-bottom: solid #8ac37b 5px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      border-radius: 3px;
+      color: black;
+      line-height: 0;
+  }
 
   .table_center {
     margin: 100px;
     margin-top: 0;
+    margin-bottom: 0;
     width: 70vw;
-    margin-bottom: 20px;
     color: black;
     display: flex;
     flex-direction: column;
